@@ -15,9 +15,10 @@ This data dictionary describes the datasets used in this project for our model d
 | **fraud_status**                        | `float64` | Target variable on whether client is fraudulent or not.                                                                         |
 | **creation_year**                       | `int64`   | Year at which client account was created.                                                                                       |
 | **creation_month**                      | `int64`   | Month at which client account was created.                                                                                      |
-| **creation_day**                        | `int64`   | Dat at which client account was created.                                                                                        |
+| **creation_day**                        | `int64`   | Day at which client account was created.                                                                                        |
 | **region_101**                          | `int64`   | One-hot encoded variable to indicate if the client is from region 101.                                                          |
 | **region_103**                          | `int64`   | One-hot encoded variable to indicate if the client is from region 103.                                                          |
+| **region_104**                          | `int64`   | One-hot encoded variable to indicate if the client is from region 104.                                                          |
 | **region_105**                          | `int64`   | One-hot encoded variable to indicate if the client is from region 105.                                                          |
 | **region_106**                          | `int64`   | One-hot encoded variable to indicate if the client is from region 106.                                                          |
 | **region_107**                          | `int64`   | One-hot encoded variable to indicate if the client is from region 107.                                                          |
