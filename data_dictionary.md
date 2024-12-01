@@ -41,7 +41,6 @@ This data dictionary describes the datasets used in this project for our model d
 | **region_372**                          | `int64`   | One-hot encoded variable to indicate if the client is from region 372.                                                          |
 | **region_379**                          | `int64`   | One-hot encoded variable to indicate if the client is from region 379.                                                          |
 | **region_399**                          | `int64`   | One-hot encoded variable to indicate if the client is from region 399.                                                          |
-| **district_60**                         | `int64`   | One-hot encoded variable to indicate if the client is from district 60.                                                         |
 | **district_62**                         | `int64`   | One-hot encoded variable to indicate if the client is from district 62.                                                         |
 | **district_63**                         | `int64`   | One-hot encoded variable to indicate if the client is from district 63.                                                         |
 | **district_69**                         | `int64`   | One-hot encoded variable to indicate if the client is from district 69.                                                         |
@@ -52,7 +51,6 @@ This data dictionary describes the datasets used in this project for our model d
 | **consumption_level_1_std**             | `float64` | Standard Deviation of consumption of meter level 1 for each client.                                                             |
 | **consumption_level_1_min**             | `float64` | Minimum consumption value of meter level 1 for each client.                                                                     |
 | **consumption_level_1_max**             | `float64` | Maximum consumption value of meter level 1 for each client.                                                                     |
-| **consumption_level_1_median**          | `float64` | Median consumption value of meter level 1 for each client.                                                                      |
 | **consumption_level_1_sum**             | `float64` | Sum of total consumption value of meter level 1 for each client.                                                                |
 | **consumption_level_2_mean**            | `float64` | Mean consumption of meter level 2 for each client.                                                                              |
 | **consumption_level_2_std**             | `float64` | Standard Deviation of consumption of meter level 2 for each client.                                                             |
@@ -61,19 +59,15 @@ This data dictionary describes the datasets used in this project for our model d
 | **consumption_level_2_median**          | `float64` | Median consumption value of meter level 2 for each client.                                                                      |
 | **consumption_level_2_sum**             | `float64` | Sum of total consumption value of meter level 2 for each client.                                                                |
 | **consumption_level_3_mean**            | `float64` | Mean consumption of meter level 3 for each client.                                                                              |
-| **consumption_level_3_std**             | `float64` | Standard Deviation of consumption of meter level 3 for each client.                                                             |
 | **consumption_level_3_min**             | `float64` | Minimum consumption value of meter level 3 for each client.                                                                     |
 | **consumption_level_3_max**             | `float64` | Maximum consumption value of meter level 3 for each client.                                                                     |
-| **consumption_level_3_median**          | `float64` | Median consumption value of meter level 3 for each client.                                                                      |
 | **consumption_level_3_sum**             | `float64` | Sum of total consumption value of meter level 3 for each client.                                                                |
 | **consumption_level_4_mean**            | `float64` | Mean consumption of meter level 4 for each client.                                                                              |
-| **consumption_level_4_std**             | `float64` | Standard Deviation of consumption of meter level 4 for each client.                                                             |
 | **consumption_level_4_min**             | `float64` | Minimum consumption value of meter level 4 for each client.                                                                     |
 | **consumption_level_4_max**             | `float64` | Maximum consumption value of meter level 4 for each client.                                                                     |
 | **consumption_level_4_median**          | `float64` | Median consumption value of meter level 4 for each client.                                                                      |
 | **consumption_level_4_sum**             | `float64` | Sum of total consumption value of meter level 4 for each client.                                                                |
 | **old_index_mean**                      | `float64` | Mean old meter index for each client.                                                                                           |
-| **old_index_std**                       | `float64` | Standard Devation of old meter index for each client.                                                                           |
 | **old_index_min**                       | `float64` | Minimum old meter index for each client.                                                                                        |
 | **old_index_max**                       | `float64` | Maximum old meter index for each client.                                                                                        |
 | **old_index_median**                    | `float64` | Median value of old meter index for each client.                                                                                |
@@ -81,16 +75,12 @@ This data dictionary describes the datasets used in this project for our model d
 | **diff_in_index_std**                   | `float64` | Standard Devation difference in meter index for each client.                                                                    |
 | **diff_in_index_min**                   | `float64` | Minimum difference in meter index for each client.                                                                              |
 | **diff_in_index_max**                   | `float64` | Maximum difference in meter index for each client.                                                                              |
-| **diff_in_index_median**                | `float64` | Median value of difference in meter index for each client.                                                                      |
 | **diff_in_index_sum**                   | `float64` | Sum of difference in meter index for each client.                                                                               |
 | **total_consumption_mean**              | `float64` | Mean total consumption across all meter levels 1, 2, 3 and 4 for each client.                                                   |
 | **total_consumption_std**               | `float64` | Standard Deviation total consumption across all meter levels 1, 2, 3 and 4 for each client.                                     |
 | **total_consumption_min**               | `float64` | Minimum total consumption across all meter levels 1, 2, 3 and 4 for each client.                                                |
 | **total_consumption_max**               | `float64` | Maximum total consumption across all meter levels 1, 2, 3 and 4 for each client.                                                |
-| **total_consumption_median**            | `float64` | Median total consumption across all meter levels 1, 2, 3 and 4 for each client.                                                 |
 | **total_consumption_sum**               | `float64` | Sum of total consumption across all meter levels 1, 2, 3 and 4 for each client.                                                 |
-| **months_number_mean**                  | `float64` | Mean value of months_number for each client.                                                                                    |
-| **months_number_std**                   | `float64` | Standard Deviation value of months_number for each client.                                                                      |
 | **months_number_min**                   | `float64` | Minimum value of months_number for each client.                                                                                 |
 | **months_number_max**                   | `float64` | Maximum value of months_number for each client.                                                                                 |
 | **months_number_median**                | `float64` | Median value of months_number for each client.                                                                                  |
@@ -102,13 +92,11 @@ This data dictionary describes the datasets used in this project for our model d
 | **time_since_last_invoice_min**         | `float64` | Minimum time passed in days since the previous invoice per client.                                                              |
 | **time_since_last_invoice_max**         | `float64` | Maximum time passed in days since the previous invoice per client.                                                              |
 | **time_since_last_invoice_median**      | `float64` | Median time passed in days since the previous invoice per client.                                                               |
-| **meter_status_0.0**                    | `float64` | No. of invoices of each client receiving meter_status of category 0 across all their invoices.                                  |
 | **meter_status_1.0**                    | `float64` | No. of invoices of each client receiving meter_status of category 1 across all their invoices.                                  |
 | **meter_status_2.0**                    | `float64` | No. of invoices of each client receiving meter_status of category 2 across all their invoices.                                  |
 | **meter_status_3.0**                    | `float64` | No. of invoices of each client receiving meter_status of category 3 across all their invoices.                                  |
 | **meter_status_4.0**                    | `float64` | No. of invoices of each client receiving meter_status of category 4 across all their invoices.                                  |
 | **meter_coefficient_0**                 | `float64` | No. of invoices of each client receiving meter_coefficient value of 0 across all their invoices.                                |
-| **meter_coefficient_1**                 | `float64` | No. of invoices of each client receiving meter_coefficient value of 1 across all their invoices.                                |
 | **meter_coefficient_2**                 | `float64` | No. of invoices of each client receiving meter_coefficient value of 2 across all their invoices.                                |
 | **meter_coefficient_3**                 | `float64` | No. of invoices of each client receiving meter_coefficient value of 3 across all their invoices.                                |
 | **meter_coefficient_4**                 | `float64` | No. of invoices of each client receiving meter_coefficient value of 4 across all their invoices.                                |
