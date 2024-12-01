@@ -6,7 +6,7 @@ Welcome to the Fraud-Detection-in Electricity-and-Gas-Consumption repository! We
 ## Background
 The Tunisian Company of Electricity and Gas (STEG) is a public and a non-administrative company, it is responsible for delivering electricity and gas across Tunisia. The company suffered tremendous losses in the order of 200 million Tunisian Dinars due to fraudulent manipulations of meters by consumers.
 
-## Flowchart
+## Approach
 As not much information was provided on the dataset and its variables, we employed relevant domain knowledge where possible, along with our findings through exploratory data analysis to make assumptions about the variables. After the first preprocessing step, we then performed feature engineering and resampling via Synthetic Minority Oversampling Technique (SMOTE) to address imbalances in our target class. After which, we experimented with different models, namely K-Nearest Neighbours (KNN), Decision Trees, Support Vector Machines (SVM), Logistic Regression, Naive Bayes and Neural Networks to determine which model might best allow for effective fraud detection. 
 
 ## Requirements
@@ -28,3 +28,6 @@ You may refer to the following notebooks as per the flowchart:
 2. cleaned_data: cleaned data after EDA
 3. transformed_data: finalised dataset after feature engineering, including train & test data
 4. smote_train_data: resampled train data after splitting into 5 folds
+
+## Data dictionary
+You may refer to data dictionary for descriptions of each variable of our final_dataset, which is kept in finalised_dataset/transformed_data/final_dataset.csv
