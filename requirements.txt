@@ -5,9 +5,5 @@ numpy==1.24.2
 tqdm==4.64.1
 optuna==3.1.0
 torch==2.0.0
-<<<<<<< HEAD
 dask==2023.2.0
 seaborn==0.12.2
-=======
-seaborn==0.11.2
->>>>>>> 3057ca8c857988c361e6e403d97a1a80ab63f597
